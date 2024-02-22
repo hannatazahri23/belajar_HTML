@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+</head>
+<body>
+    <form action="">
+        <table border="1" cellspacing="0" cellpadding="9">
+            <tr>
+                <td>
+                    <label for="un">Username:</label>
+                </td>
+                <td align="center">
+                    <input type="text" id="un" placeholder="masukan Username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password:</label>
+                </td>
+                <td align="center">
+                    <input type="password" id="pass" placeholder="masukan Pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Alamat:</label>
+                </td>
+                <td align="center">
+                    <textarea id="address" cols="19" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="radio" id="male" name="JK"><label for="male">Pria</label>
+                    <input type="radio" id="female" name="JK"><label for="female">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="upload">Upload File:</label></td>
+                <td><input type="file" name="Upload"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="checkbox" id="YZ"><label for="YZ">Yu Zhong</label>
+                    <input type="checkbox" id="Yin"><label for="Yin">Yin</label>
+                    <input type="checkbox" id="Saber"><label for="Saber">Saber</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="wife">Waifu:</label>
+                </td>
+                <td align="center">
+                    <select id="wife"> 
+                        <option>Hayase Yuuka</option>
+                        <option>Ryuuge Kisaki</option>
+                        <option>Rory Mercury</option>
+                        <option>Tokisaki Kurumi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Send!</button>
+                    <button type="reset">Reset!</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
